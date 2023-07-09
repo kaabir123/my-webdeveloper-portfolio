@@ -117,7 +117,6 @@ nav a {
 .banner-btn {
     color: #FFF;
     text-align: center;
-    font-family: Open Sans;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -206,7 +205,7 @@ nav a {
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     padding: 50px;
     margin: 0 5px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 
 .skill-title {
@@ -214,10 +213,61 @@ nav a {
 }
 
 .skill-description {
-    color:#757575;
+    color: #757575;
     font-family: Open Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
+}
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.resume-item {
+    padding: 10px 0;
+}
+
+.resume-column {
+    padding: 10px 15px;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 30px 0 10px 0;
+}
+
+.resume-item-institute {
+    color: #757575;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.resume-item-description {
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 450px;
+    margin-bottom: 30px;
+}
+.btn-center{
+    margin: 0 500px;
+    margin-bottom: 100px;
 }
